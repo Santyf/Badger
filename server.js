@@ -35,6 +35,9 @@ app.get("/scrape", function(req, res) {
           .attr("href"));
           console.log(result);
   
+          // result.image = $(this)
+          // .children("img")
+          // .attr("src");
         
      
        
